@@ -1,0 +1,208 @@
+.blob1{
+    filter: blur(8px);
+    content: "";
+    height: 15em;
+    width: 15em;
+    background-color: #2d1840;
+    border-radius: 50%;
+    position: absolute;
+    top: 25em;
+    left: 7em;
+}
+
+.blob2{
+    filter: blur(8px);
+    content: "";
+    height: 10em;
+    width: 10em;
+    background-color: #2d1840;
+    border-radius: 50%;
+    position: absolute;
+    top: 10em;
+    left: 20em;
+}
+
+.blob3{
+    content: "";
+    filter: blur(8px);
+    height: 20em;
+    width: 20em;
+    background-color: #f70c57;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 70em;
+}
+
+.bg{
+    height: 45em;
+    width: 95em;
+    background-image: linear-gradient(to right, #6973a6,#e6bbba);
+}
+
+.centre_card{
+    background-color: white;
+    opacity: 0.5;
+    height: 25em;
+    width: 65em;
+    border-radius: 15px;
+    position: absolute;
+    top: 10em;
+    left: 15em;
+}
+
+.text{
+    color: #2d1840;
+    opacity: 1;
+    font-size: 1.5em;
+    position: absolute;
+    top: 8em;
+    left: 12em;
+}
+
+.multi_color{
+    background: linear-gradient(to right,yellow,red,#2d1840 ,#372945, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button1{
+    border-radius: 5px;
+    background-color: transparent;
+    height: 3em;
+    width: 15em;
+    position: absolute;
+    top: 25em;
+    left: 18em;
+}
+
+.button2{
+    border-radius: 5px;
+    height: 3em;
+    width: 15em;
+    background-color: #2d1840;
+    color: #fff;
+    position: absolute;
+    top: 25em;
+    left: 35em;
+}
+    
+.box{
+    height: 15em;
+    width: 20em;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0.3;
+    position: absolute;
+    top: 15em;
+    left: 55em;
+
+}
+
+.card{
+    height: 15em;
+    width: 20em;
+    background-color: #fff;
+    position: absolute;
+    top: 17em;
+    left: 53em;
+}
+
+.cardtext{
+    font-size: 1.8em;
+    color: #2d1840;
+    position: absolute;
+    top: 1em;
+    left: 1.3em;
+}
+
+.card_text{
+    position: absolute;
+    color: #2d1840;
+    top: 7.5em;
+    left: 2.9em;
+}
+
+.button3{
+    border-radius: 10px;
+    height: 3em;
+    width: 17em;
+    background-color: #2d1840;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #fff;
+    position: absolute;
+    top: 11em;
+    left: 1.6em;
+}
+/*
+.bottom_card{
+    height: 5em;
+    width: 20em;
+    background-color: grey;
+    border-radius: 10px;
+    opacity: 0.4;
+    position: absolute;
+    top: 40em;
+    left: 40em;
+}
+
+.button4{
+    height: 1.7em;
+    width: 1.7em;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+    color: #2d1840;
+    position: absolute;
+    top: 40em;
+    left: 58em;
+}
+
+.pop-text{
+    color: #2d1840;
+    height: 3em;
+    width: 20em;
+    position: absolute;
+    top: 42em;
+    left: 43em;
+}
+<div class="bottom_card"></div>
+            <button class="button4"><strong>X</strong></button>
+            <p class="pop-text">kya dekh rahe ho, kaam hogaya!</p>
+*/
+
+.sidenav {
+    height: 6em;
+    width: 20em;
+    position: absolute;
+    top: 38.5em;
+    left: 38em;
+    background-color: #dad7df;
+    border-radius: 10px;
+    padding: 0 0 0 1em;
+    overflow-x: hidden;
+    transition: 0.5s;
+  
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #2d1840;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #2d1840;
+    opacity: 0.5;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
