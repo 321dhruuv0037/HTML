@@ -135,6 +135,13 @@
     top: 11em;
     left: 1.6em;
 }
+
+.button3:hover{
+    background-color: transparent;
+    color: #2d1840;
+    border: solid 1px #2d1840;
+}
+
 /*
 .bottom_card{
     height: 5em;
